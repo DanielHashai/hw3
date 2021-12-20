@@ -53,7 +53,7 @@ void getInput() {
 
 		//scanf("%s", in);
 		fgets(in, TEXT, stdin);
-		printf("\n%s\n",in);
+		//printf("\n%s\n",in);
 
 		textSize = strlen(in);
 
@@ -76,12 +76,12 @@ void getInput() {
 
     }
 
-	printf("\ntext %s\n", text);
-	printf("\nword %s\n",word);
-	printf("\nwordAtbash %s\n",wordAtbash);
-	printf("\nwordGematria %d\n",wordGematriaCnt);
-	printf("\nwordAtbashCnt %d\n",wordAtbashCnt);
-	printf("\ntextWrPtr %d\n",textWrPtr);
+	//printf("\ntext %s\n", text);
+	//printf("\nword %s\n",word);
+	//printf("\nwordAtbash %s\n",wordAtbash);
+	//printf("\nwordGematria %d\n",wordGematriaCnt);
+	//printf("\nwordAtbashCnt %d\n",wordAtbashCnt);
+	//printf("\ntextWrPtr %d\n",textWrPtr);
 
 	return;
 
