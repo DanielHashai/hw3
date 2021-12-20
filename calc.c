@@ -125,7 +125,7 @@ void printAtbash() {
 	int i, j, k;
 	int firstPrintDone = 0;
 
-	printf("Antbash Sequences: ");
+	printf("Atbash Sequences: ");
 	for(i = 0; i < textWrPtr; i++) {
 		if (!IS_VALID(text[i])) continue;
 
